@@ -1,16 +1,16 @@
 #First time setup                                                       #undo staged change
-git config --global user.name "RohanBisht33"                            git restore --staged file.py
-git config --global user.email "bishtrohan33@gmail.com"                  
+git config --global user.name "username"                                git restore --staged file.py
+git config --global user.email "email@gmail.com"                  
 git config --global init.defaultBranch main                             #undo local change
                                                                         git restore file.py
 #If repo is made explicitly 
-git remote add origin https://github.com/RohanBisht33/ML.git            #Undo last commit
+git remote add origin https://github.com/username/repo.git              #Undo last commit
 git push -u origin main                                                 git reset --soft HEAD~1
 
 #Basic Commands                                                         #tagging and pushing good commits
 git status                                                              git tag tag_name
 git add .                                                               git push origin tag_name
-git commit -m "train cnn v1"
+git commit -m "Commit message"
 git push                                                                #view and switch tags(readonly)
                                                                         git tag
 #Create a branch                                                        git checkout tag_name
