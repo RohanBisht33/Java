@@ -5,11 +5,12 @@
 
 class Methods {
     
-    //method/function
+    //method or function
     void greet(){
         System.out.println("Hello User! ");
     }
     
+    //method with parameters (a) and (b) of type integer
     int multiply(int a, int b){
         int product = a * b;
         System.out.println("Multiplication of " +a + " and " +b + " is: " +product);
@@ -23,7 +24,7 @@ class Methods {
         Methods obj = new Methods();
 
         obj.greet(); //Method calling
-        obj.multiply(2,3);
+        obj.multiply(2,3);//Method calling with parameter passing
     }
 }
 

@@ -1,12 +1,11 @@
 //This is a comment
 //----------------------------------------------------------
-//Class name (ClassName) is Capitalized form of filename
-//class is a keyword
 
+//Class name (DataTypes) is Capitalized form of dataTypes.java
 class DataTypes {
     
-    String name = "Rohan";
-    int age = 20;
+    String name = "User";
+    int age = 22;
     float pi = 3.14f;
     char grade = 'A';
     boolean isStudying = true;

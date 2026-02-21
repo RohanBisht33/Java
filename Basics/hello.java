@@ -10,6 +10,7 @@ class Hello{
     //(public) is access specifier, (static) is class modifier, (void) is return type, (main) is method name, (String []args) is parameter
     //------------------------------------------------------------------------------------------------------------------------------------
     public static void main(String args[]){
+        
         //System.out.println() is used to show output on screen
         //-----------------------------------------------------------------------
         //(System) is a class name

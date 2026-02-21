@@ -2,7 +2,7 @@
 
 //Interface declaration
 interface Animal {
-    void sound();   // abstract method (no body)
+    void sound();   // abstract method (no definition)
 }
 
 //Class implementing interface using (implements) keyword

@@ -1,10 +1,8 @@
-//This is a comment
-//----------------------------------------------------------
-//Class name (ClassName) is Capitalized form of filename
+//Class name (Finals) is Capitalized form of finals.java
 //class is a keyword
 
 //this final type of class cannot have sub class
-final class Finals {
+final class Finals {//(final) is keyword, (Finals) is class name
     
     //final keyword is used to make a constant value which can't be changed
     //final type var can't be empty
@@ -14,8 +12,8 @@ final class Finals {
     final void greet(){
         System.out.println("Hello User!");
     }
-    //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
 
+    //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
         Finals obj = new Finals();

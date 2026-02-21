@@ -1,11 +1,11 @@
 //This is a comment
 
 interface Father {//Parent1
-    void showFather();
+    void showFather();// abstract method (no definition)
 }
 
 interface Mother {//Parent2
-    void showMother();
+    void showMother();// abstract method (no definition)
 }
 
 //implements keyword is used to inherit from interfaces

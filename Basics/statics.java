@@ -12,10 +12,11 @@ class Statics {
     static void greet(){
         System.out.println("Hello User!");
     }
+
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
-        //Static methods can be accessed using dot operator on Class name or normally
+        //Static methods can be accessed using dot operator on Class name or (normally within same class)
         Statics.greet();
         greet();
 

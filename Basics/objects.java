@@ -17,7 +17,7 @@ class Objects {
         Objects obj = new Objects();
         //Class var = new Class();
 
-        System.out.println("Value of a: " + obj.a);//obj.var is used to access instance variables or methods
+        System.out.println("Value of a: " + obj.a); //obj.var is used to access instance variables or methods
     }
 }
 
