@@ -1,7 +1,3 @@
-//This is a comment
-//----------------------------------------------------------
-//class is a keyword
-
 //Super class
 class Animal {
 
@@ -12,6 +8,7 @@ class Animal {
     }
 }
 
+//Sub class inheriting from Animal class
 class Dog extends Animal {
 
     void bark() {
@@ -19,6 +16,7 @@ class Dog extends Animal {
     }
 }
 
+//Main class containing main method
 //Class name (SingleInheritance) is Capitalized form of singleInheritance
 class SingleInheritance {
     

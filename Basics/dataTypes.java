@@ -14,6 +14,7 @@ class DataTypes {
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
+        //object of DataTypes class
         DataTypes obj = new DataTypes();
 
         System.out.println("My name is: " + obj.name);

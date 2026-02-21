@@ -14,7 +14,9 @@ class Constructor {//ClassName
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
-        Constructor obj = new Constructor();//paramater passing
+        //object of Constructor class
+        Constructor obj = new Constructor();
+        
         System.out.println("Value of a: " +obj.a);
     }
 }

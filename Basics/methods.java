@@ -9,6 +9,7 @@ class Methods {
     void greet(){
         System.out.println("Hello User! ");
     }
+    
     int multiply(int a, int b){
         int product = a * b;
         System.out.println("Multiplication of " +a + " and " +b + " is: " +product);
@@ -18,8 +19,10 @@ class Methods {
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
+        //object of Methods class
         Methods obj = new Methods();
-        obj.greet();
+
+        obj.greet(); //Method calling
         obj.multiply(2,3);
     }
 }

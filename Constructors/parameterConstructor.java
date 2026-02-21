@@ -16,6 +16,7 @@ class ParameterConstructor {
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
+        //object of DataTypes class 
         ParameterConstructor obj = new ParameterConstructor(4);//paramater passing
         
         System.out.println("Value of a: " +obj.a);

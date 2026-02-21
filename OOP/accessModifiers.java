@@ -27,7 +27,7 @@ class AccessModifiers {
         // System.out.println(obj.privateVar); Not allowed (private)
         obj.display();
 
-        System.out.println("From another class but in (same package):");
+        System.out.println("Inside another class but in same package");
         System.out.println(obj.defaultVar);    // allowed
         System.out.println(obj.protectedVar);  // allowed
         System.out.println(obj.publicVar);     // allowed

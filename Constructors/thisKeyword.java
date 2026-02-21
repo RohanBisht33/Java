@@ -16,6 +16,7 @@ class ThisKeyword {
     //Compulsory (main) function/method. It is called by JVM (Java Virtual Machine)
     public static void main(String args[]){
 
+        //object of ThisKeyword class
         ThisKeyword obj = new ThisKeyword(4);//paramater passing
         System.out.println("Value of a: " +obj.a);
     }
