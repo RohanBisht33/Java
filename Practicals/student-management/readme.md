@@ -42,7 +42,7 @@ This project aims to provide:
 Open terminal and go to:
 
 ```
-/media/ai/Storage/Java/Practicals/student-management
+Java/Practicals/student-management
 ```
 
 ---
